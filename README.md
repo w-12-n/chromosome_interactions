@@ -9,8 +9,6 @@ And thus can specify how intensely each pair of chromosomes interacted with each
 The results are displayed as a heat map, which specifies the gene expression for a given cell type (in this case, fibrobloast cells).
 We may compare heat maps between different cell-types as a gauge of their similarity.
 
-![Heat map for the fibrobloast cells](https://raw.githubusercontent.com/w-12-n/chromosome_interactions/blob/master/heat_map.png)
-
 ## Data
 The data is split into files, chrX_chrY.txt, which represent sparse matrices of interaction frequencies between chromosome X and chromosome Y in fibrobloast cells. 
 The first two columns correspond to the locations on chromosomes X and Y, respectively (in base pairs). 
